@@ -692,7 +692,7 @@ footskip=1.2cm% 页脚 1.8cm %
 %_ 页眉页脚
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[RE,LO]{\songti \zihao{5}{华东理工大学}}  % 奇数页左页眉
+\fancyhead[RE,LO]{\songti \zihao{5}{理工大学}}  % 奇数页左页眉
 \fancyhead[RO,LE]{\songti \zihao{5} {\thepage}}      % 页脚
 
 

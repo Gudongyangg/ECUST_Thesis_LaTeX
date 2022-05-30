@@ -100,12 +100,12 @@
 %% 封面
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{华东理工大学博士论文LaTeX模板}
-\englishtitle{
-  \begin{tabular}{c}
-    两行英文标题 \\ 换行方式
-  \end{tabular}}
-\englishauthor{}
+\title{DelaySSA中文文档}
+% \englishtitle{
+%   \begin{tabular}{c}
+%     两行英文标题 \\ 换行方式
+%   \end{tabular}}
+% \englishauthor{}
 
 % \includepdf[pages=-]{chapters/硕、博士封面.pdf}
 % \includepdf[pages=-]{chapters/空白页.pdf}
@@ -141,9 +141,10 @@
 \mainmatter
 
 %% 各章正文内容
-\include{chapters/chapter1}
-\include{chapters/chapter2}
-
+\include{chapters/introduction}
+% \include{chapters/theory}
+% \include{chapters/algorithm}
+% \include{chapters/example}
 
 %% 参考文献内容（小4号宋体），使用 BibTeX，包含参考文献文件.bib
 %\bibliography{reference/chap1,reference/chap2} %多个章节的参考文献
@@ -167,7 +168,7 @@
 % 致谢
 \include{chapters/thanks}
 % 发表文章目录
-\include{chapters/publications}
+% \include{chapters/publications}
 
 
 % \includepdf[pages=-]{chapters/卷内备考表.pdf}
